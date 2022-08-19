@@ -1,4 +1,4 @@
-name: Node Contiuous Integration nodejs 18 ubuntu 22.04
+name: Node Contiuous Integration nodejs
 on: push
 jobs:
   build-node:
