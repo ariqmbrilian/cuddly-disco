@@ -1,6 +1,6 @@
 on: push
 jobs:
-  first-job:
+  build-node:
     runs-on: ubuntu-22.04
     container: node:14.20.0
     steps: 
