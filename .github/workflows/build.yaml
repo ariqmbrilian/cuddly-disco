@@ -5,3 +5,9 @@ jobs:
     steps: 
       - run: node --version
       - run: npm --version
+
+  second-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: node --version
+      - run: npm --version
